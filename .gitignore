@@ -1,3 +1,6 @@
-/target
+target
 .env
-Cargo.lock
+event_watcher/scripts/*
+!event_watcher/scripts/example.py
+!event_watcher/scripts/utils.py
+!event_watcher/scripts/__init__.py

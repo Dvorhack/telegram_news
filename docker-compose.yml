@@ -1,11 +1,15 @@
 version: '3'
 
 services:
-  telegram_news:
-    build: .
-    container_name: telegram_news
+  telegram_api:
+    build: telegram_api
+    
     environment:
       - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
       - TELEGRAM_CHATID=${TELEGRAM_CHATID}
     ports:
       - 7878:7878
+  
+  event_watcher:
+    build: event_watcher
+    
