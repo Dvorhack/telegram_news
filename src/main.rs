@@ -8,8 +8,6 @@ use std::thread;
 use std::sync::mpsc;
 
 fn main() {
-    println!("Hello, world!");
-
     let (tx, rx) = mpsc::channel();
 
     let handle = thread::spawn( || telegram_thread(rx) );    
