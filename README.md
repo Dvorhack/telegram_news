@@ -8,3 +8,7 @@ Copy `.env.example` to `.env` and fill the variable with your tokens
 
 The Telegram bot can be created using [@BotFather](https://t.me/botfather)
 
+## Add new event
+
+Create a python file in `event_watcher/scripts/` with function `event_watcher()`  
+This function will be the base of a thread
