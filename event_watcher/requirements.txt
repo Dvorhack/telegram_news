@@ -1,2 +1,4 @@
 requests
 xxhash
+beautifulsoup4
+html5lib

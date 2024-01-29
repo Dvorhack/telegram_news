@@ -1,9 +1,10 @@
 
-def event_watcher():
+def event_watcher_no():
     from scripts.utils import send_to_telegram
     import time, requests, xxhash
     
     SITES = [
+        'https://ruia-ruia.github.io/posts/',
         'https://www.synacktiv.com/publications/',
     ]
 
