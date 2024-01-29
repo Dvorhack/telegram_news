@@ -5,4 +5,4 @@ event_watcher/scripts/*
 !event_watcher/scripts/utils.py
 !event_watcher/scripts/__init__.py
 !event_watcher/scripts/uptime.py
-!event_watcher/scripts/page_updae.py
+!event_watcher/scripts/page_update.py
