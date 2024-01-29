@@ -20,7 +20,7 @@ fn handle_client(mut stream: TcpStream, tx: std::sync::mpsc::Sender<String>) {
                 stream.write(b"200 OK").unwrap();
             }
             Err(err) => {
-                panic!("{}", err);
+                
             }
         }
     }

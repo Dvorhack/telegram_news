@@ -40,5 +40,9 @@ def execute_function_in_all_scripts(folder_path, function_name):
             
     return threads
 
-print(execute_function_in_all_scripts('scripts', 'event_watcher'))
+threads = execute_function_in_all_scripts('scripts', 'event_watcher')
 
+print(threads)
+
+while True:
+    pass
